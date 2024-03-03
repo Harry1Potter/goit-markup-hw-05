@@ -358,11 +358,24 @@
             </li>
         </ul>
     </div>
+    <div class="subscribe">
+        <p class="subscribe-text">Subscribe</p>
+        <form action="" class="subscribe-form">
+            <label for="" class="subscribe-label">
+                <input type="email" class="subscribe-input" placeholder="E-mail">
+            </label>
+            <button class="subscribe-button" type="submit">Subscribe
+                <svg class="subscribe-svg" width="24" height="24">
+                    <use href="./images/icons.svg#icon-telegram"></use>
+                </svg>
+            </button>
+        </form>
+    </div>
 </div>
 </footer>
-<div class="backdrop is-open">
+<div class="backdrop">
     <div class="modal">
-        <button class="button-close">
+        <button class="button-close" type="button">
             <svg class="button-close-item" width="8" height="8">
                 <use href="./images/icons.svg#icon-close-black"></use>
             </svg>
@@ -418,7 +431,6 @@
                 class="review-form-message"
                 name="user-comment" 
                 id="user-comment" 
-                class="review-from-message"
                 placeholder="Text input"
                 required></textarea>
             </div>
@@ -426,11 +438,11 @@
                 <input 
                 type="checkbox" 
                 class="review-from-privacy-checkbox visually-hidden" 
-                name="privacy-policy"
-                id="privacy-policy"
+                name="user-privacy"
+                id="user-privacy"
                 value="true"
                 required>
-                <label for="privacy-policy" class="review-form-checkbox-label">
+                <label for="user-privacy" class="review-form-checkbox-label">
                 <span class="review-form-own-checkbox">
                     <svg class="review-form-own-checkbox-icon" width="10" height="8">
                         <use href="./images/icons.svg#icon-check"></use>
