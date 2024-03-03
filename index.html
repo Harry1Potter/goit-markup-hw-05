@@ -360,9 +360,9 @@
     </div>
     <div class="subscribe">
         <p class="subscribe-text">Subscribe</p>
-        <form action="" class="subscribe-form">
-            <label for="" class="subscribe-label">
-                <input type="email" class="subscribe-input" placeholder="E-mail">
+        <form action="subscribe-action" class="subscribe-form">
+            <label for="subscribe-input-name" class="subscribe-label">
+                <input name="subscribe-input-name" id="subscribe-input-name" type="email" class="subscribe-input" placeholder="E-mail">
             </label>
             <button class="subscribe-button" type="submit">Subscribe
                 <svg class="subscribe-svg" width="24" height="24">
@@ -373,7 +373,7 @@
     </div>
 </div>
 </footer>
-<div class="backdrop">
+<div class="backdrop is-open">
     <div class="modal">
         <button class="button-close" type="button">
             <svg class="button-close-item" width="8" height="8">
